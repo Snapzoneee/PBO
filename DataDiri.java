@@ -18,7 +18,11 @@ public class DataDiri {
         this.nama = nama;
         this.npm = npm;
         this.kelas = kelas;
-        
-        
     }
-}
+    public void tampilkanData(){
+        System.out.println("Data Diri : ");
+        System.out.println("Nama :" +nama);
+        System.out.println("NPM :" +npm);
+        System.out.println("Kelas : +" +kelas);
+        }
+    }
